@@ -1,0 +1,41 @@
+.Banner-Box{
+    background-color:black;
+    color: #fff;
+    height: 100vh;
+   position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.image-box{
+    justify-content: flex-end;
+    display: flex;
+   margin-top: 103.3px;
+   
+}
+.image-ani{
+    width: 80%;
+    overflow: hidden;
+    height: 80%;
+}
+.typo-box{
+    margin-top: 35%;
+    margin-left: 25%;
+}
+.typo-1st{
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+   
+}
+.typo1st-span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#E30B5D;
+}
+@media screen and (max-width:600px) {
+    .image-ani{
+        display: none !important;
+    }
+    .typo-box{
+        margin-top: 35%;
+        margin-left: 0%;
+       text-align: center !important;
+    }
+}

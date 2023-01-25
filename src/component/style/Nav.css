@@ -1,0 +1,63 @@
+.logo-A{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#E30B5D;
+
+}
+.logo{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+}
+.logo:hover{
+    color: #fff !important;
+   
+}
+.nav-toggler-btn{
+    color: #fff !important;
+    background-color: #fff !important;
+}
+.nav-div{
+    background-color: transparent;
+   position:relative;
+    z-index: 1111;
+    color: #fff;
+   
+}
+.nav-link-color{
+    color: #fff;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     margin-left: 25px;
+     cursor: pointer;
+}
+.nav-link-color:hover{
+    color: #E30B5D;
+     transform: scale(1.05);
+     cursor: pointer;
+     transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition:ease-in-out;
+}
+.nav-social-icon{
+    color: #fff;
+}
+.nav-social-icon:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #E30B5D !important;
+}
+.margin-social{
+    margin-right: 30px;
+}
+.social-icon{
+    margin-right: 20px;
+}
+@media screen and (max-width:991px) {
+    .margin-social{
+       justify-content: start !important;
+       margin-left: 26px;
+    }
+}

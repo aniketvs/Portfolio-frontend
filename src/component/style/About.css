@@ -1,0 +1,90 @@
+.about-box{
+    z-index: 111111;
+    position:inherit;
+    margin-top: 100vh;
+    margin-bottom: 4rem;
+}
+.About-header{
+    margin-left: 30px !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    color:#000000;
+}
+.about-text{
+    margin-left: 30px !important;
+    margin-top: 10px !important; 
+font-size: 15px !important;
+font-family: Arial, Helvetica, sans-serif!important;
+color: #000000;
+word-spacing: 2px !important;
+}
+.cardimage{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+.tabpanel{
+    margin-left: 20px !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #E30B5D !important;
+   
+}
+.css-1aquho2-MuiTabs-indicator {
+    background-color: #E30B5D !important;
+}
+.tab{
+    font-size: 17px !important;
+    font-family: Arial, Helvetica, sans-serif!important;
+    font-weight: 600 !important;
+}
+.head-text{
+    font-size: 18px !important;
+    font-family: Arial, Helvetica, sans-serif!important;
+    color: #000000;
+    word-spacing: 2px !important;
+
+}
+.subhead-text{
+    font-size: 14px !important;
+    font-family: Arial, Helvetica, sans-serif!important;
+    color: #000000;
+    word-spacing: 2px !important;
+
+}
+.skill-mainbox{
+    width: 100%;
+    max-width: 100%;
+
+}
+.skill-box{
+     background-color: gray;
+  
+     border-radius: 5px;
+    text-align: center;
+     box-sizing: border-box;
+     padding: 5px;
+     width: 100%;
+    font-size: 16px !important;
+    font-family: Arial, Helvetica, sans-serif!important;
+    color: #fff;
+    word-spacing: 2px !important;
+}
+@media screen and (min-width:700px) and (max-width:1000px) {
+    .skill-box{
+        font-size: 14px !important;
+    }
+    .tab{
+        font-size: 15px !important;
+    }
+}
+@media screen and (max-width:699px) {
+    .skill-box{
+        font-size: 12px !important;
+    }
+    .tab{
+        font-size: 13px !important;
+    }
+}
+@media screen and (max-width:370px) {
+    .tab{
+        font-size: 10px !important;
+    }
+}

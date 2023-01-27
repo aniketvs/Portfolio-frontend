@@ -45,7 +45,7 @@ export default function About() {
     const [skill] = useState(['Data Structure','Algorithm','C++','HTML','CSS','JS','Node Js','React Js','Express Js','MongoDB','Bootstrap','Matarial UI','Tailwind CSS']);
     return (
         <>
-            <Box className="container about-box">
+            <Box className="container about-box" id="about">
                 <Grid container spacing={4}>
                     <Grid item xs={12} sm={12} md={5}>
                         <Box>

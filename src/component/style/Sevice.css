@@ -1,0 +1,30 @@
+.service-box{
+    margin-bottom: 5rem !important;
+}
+.card-header{
+    font-size: 20px !important;
+    font-family: Arial, Helvetica, sans-serif!important;
+    color: #000000;
+    word-spacing: 2px !important;
+}
+.card-text{
+    font-size: 13px !important;
+    font-family: Arial, Helvetica, sans-serif!important;
+    color: #000000;
+    word-spacing: 2px !important;
+}
+.card-box-in{
+    padding: 0.5rem !important;
+}
+.codeof{
+    font-size: 75px !important;
+    color: #E30B5D !important;
+}
+@media screen and (min-width:599px) and (max-width:768px) {
+    .card-box-backend{
+        padding: 8.3px !important;
+    }
+    .backend-text{
+        font-size: 12.3px !important;
+    }
+}

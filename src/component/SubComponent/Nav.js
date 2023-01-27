@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { HashLink as Link} from 'react-router-hash-link';
 import '../style/Nav.css'
 import { Box } from '@mui/system'
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -21,13 +21,13 @@ export default function Nav() {
           <Link class="nav-link nav-link-color  active" aria-current="page" to="/">Home</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link nav-link-color" to='/about'>About</Link>
+          <Link class="nav-link nav-link-color" to='#about' smooth>About</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link nav-link-color" to='/about'>Project</Link>
+          <Link class="nav-link nav-link-color" to='#services' smooth>Services</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link nav-link-color" to='/about'>Contact</Link>
+          <Link class="nav-link nav-link-color" to='#project' smooth>Project</Link>
         </li>
         
        

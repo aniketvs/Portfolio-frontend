@@ -4,6 +4,9 @@ import Nav from './SubComponent/Nav'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import About from './SubComponent/About';
+import Footer from './Footer';
+import Service from './SubComponent/Service'
+import Project from './SubComponent/Project';
 export default function Home() {
   useEffect(()=>{
     AOS.init();
@@ -13,6 +16,9 @@ export default function Home() {
         <Nav/>
         <Banneer/>
         <About/>
+        <Service/>
+        <Project/>
+        <Footer/>
     </>
   )
 }

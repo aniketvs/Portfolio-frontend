@@ -1,0 +1,94 @@
+.card-div{
+    background-color:  #555555 !important;
+    border: none;
+    border-radius: 0px !important;
+    color: #ffffff !important;
+    height: 100%!important;
+}
+.card-footer{
+ border-top: 0px;
+
+    border-radius: 0px !important;
+}
+.divider{
+    color: #ffffff;
+    z-index: 11111;
+    width: 80%;
+    height: 4px !important;
+   margin: auto !important;
+
+}
+.address-header{
+    font-size: 22px !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+.add-text{
+    font-size: 15px !important;
+    font-family: Arial, Helvetica, sans-serif!important;
+    opacity: 0.8 !important;
+   color: #ffffff !important;
+}
+.social{
+    display: flex !important;
+    justify-content: center;
+}
+.icon{
+    margin-left: 15px !important;
+    color: #ffffff !important;
+    cursor:  pointer !important;
+}
+.LinkedInIcon{
+    color: #ffffff !important;
+    cursor:  pointer !important;
+}
+
+.contact-div{
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+}
+@media  screen and (max-width:545px) {
+    .contact-div{
+        text-align: center !important;
+        justify-content: center !important;
+    }
+    .addres-grid{
+        justify-content: center !important;
+        text-align: center !important;
+    }
+    .community-grid{
+        justify-content: center !important;
+        text-align: center !important;
+
+    }
+    .main-grid{
+        justify-content: center !important;
+        text-align: center !important;
+    }
+}
+.contact-text{
+    font-size: 15px !important;
+    font-family: Arial, Helvetica, sans-serif!important;
+    opacity: 0.8 !important;
+   color: #ffffff !important;
+   cursor:  pointer !important;
+}
+.contact-text:hover{
+    text-decoration: none !important;
+
+}
+@media screen and (min-width:545px) and (max-width:899px){
+    .add-box{
+       
+        text-align: center !important;
+    }
+    .contact-div{
+        justify-content: center !important;
+        text-align: center !important;
+    
+    }
+}
+.ml-3{margin-left: 30px !important;}
+.mr-3{
+    margin-right: 30px !important;
+}

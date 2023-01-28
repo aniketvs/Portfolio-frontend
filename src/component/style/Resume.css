@@ -1,0 +1,66 @@
+.resume-box{
+    width: 100%;
+    background-color: #000;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 2px solid lightgray;
+    border-radius: 50px;
+    padding: 13px;
+    box-sizing: border-box;
+    margin: 3rem ;
+    display: flex;
+    justify-content: space-between;
+}
+.download-text{
+    margin-left: 1rem !important;
+    color: #ffffff !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    word-spacing: 3px !important;
+    margin-top: 0.4rem !important;
+}
+.btn-dwn{
+    border-radius: 50% !important;
+    box-sizing: border-box !important;
+    padding: 15px !important;
+    text-align: center !important;
+    background: #E30B5D !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.css-1d6wzja-MuiButton-startIcon {
+    margin-left: 0px !important;
+    margin-right:0px !important;
+}
+.download-icon{
+    font-size: 30px !important;
+   margin-left: 0px !important;
+   margin-right: 0px !important;
+}
+.resume-heighlight{
+    color: #E30B5D !important;
+}
+@media screen and (min-width:500px) and (max-width:767px) {
+
+    .download-text{
+        font-size: 23px !important;
+        margin-top: 0.7rem !important;
+    }
+}
+@media screen and  (max-width:499px) {
+
+    .download-text{
+        text-align: center !important;
+        font-size: 16px !important;
+        margin-top: 4px !important;
+        word-spacing: 1px !important;
+    }
+    .resume-box{
+        display: block !important;
+        border-radius: 10px !important;
+    }
+   .btn-box{
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 1rem !important;
+   }
+
+}

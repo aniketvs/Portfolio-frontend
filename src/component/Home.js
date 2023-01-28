@@ -6,7 +6,9 @@ import 'aos/dist/aos.css';
 import About from './SubComponent/About';
 import Footer from './Footer';
 import Service from './SubComponent/Service'
+import Resume from './SubComponent/Resume'
 import Project from './SubComponent/Project';
+import Contact from './SubComponent/Contact';
 export default function Home() {
   useEffect(()=>{
     AOS.init();
@@ -18,6 +20,9 @@ export default function Home() {
         <About/>
         <Service/>
         <Project/>
+        <Contact/>
+        <Resume/>
+        
         <Footer/>
     </>
   )

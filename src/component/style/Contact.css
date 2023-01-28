@@ -1,0 +1,60 @@
+.contact-header{
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    margin-bottom: 2rem !important;
+}
+.matrial-icon{
+    font-size: 30px !important;
+    color: #1B1B1B!important;
+    margin-right: 0.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+.matrial-icon:hover{
+    transform: scale(1.1);
+    transition:  0.3s ease-out !important;
+
+}
+.conatcat-text{
+    font-size: 18px !important;
+    margin-top: 2PX !important;
+    font-family: Arial, Helvetica, sans-serif!important;
+    color: #1B1B1B;
+}
+.text-col{
+    color: #E30B5D;
+}
+
+.flex-icon{
+    font-size: 30px !important;
+   cursor: pointer;
+    margin: 5px;
+}
+.flex-icon:hover{
+    transform: scale(1.1);
+    transition:  0.3s ease-out !important;
+}
+ .flex-icon-fst:hover{
+    transform: scale(1.1);
+    transition:  0.3s ease-out !important;
+}
+.flex-icon-fst{
+    font-size: 30px !important;
+   cursor: pointer;
+    margin-left: 0px !important;
+    margin: 5px;
+}
+.text-area{
+    margin-block-end: 1rem !important;
+}
+.Main-grid{
+    justify-content: center !important;
+}
+.btn-sub{
+    background-color: #E30B5D !important;
+    color: #fff !important;
+    padding-right: 25px !important ;
+    padding-left: 25px !important;
+}
+.Mui-focused{
+    color: #1B1B1B !important;
+   
+}

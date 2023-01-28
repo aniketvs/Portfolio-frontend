@@ -7,6 +7,9 @@
     color: #000000;
     word-spacing: 2px !important;
 }
+.text-col{
+    color: #E30B5D;
+}
 .card-text{
     font-size: 13px !important;
     font-family: Arial, Helvetica, sans-serif!important;
@@ -27,4 +30,7 @@
     .backend-text{
         font-size: 12.3px !important;
     }
+}
+.card-service{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px !important;
 }

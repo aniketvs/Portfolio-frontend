@@ -48,7 +48,7 @@ export default function About() {
             <Box className="container about-box" id="about">
                 <Grid container spacing={4}>
                     <Grid item xs={12} sm={12} md={5}>
-                        <Box>
+                        <Box data-aos="fade-right">
                             <Card className="cardimage">
                                 <CardMedia
                                     component="img"
@@ -61,8 +61,8 @@ export default function About() {
                         </Box>
                     </Grid>
                     <Grid item xs={12} sm={12} md={7}>
-                        <Box>
-                            <Typography className='About-header' variant='h3'>About Me</Typography>
+                        <Box data-aos="fade-left">
+                            <Typography className='About-header' variant='h3'>About <span className='text-col'>Me.</span></Typography>
                             <Typography className='about-text'>I Am MERN Stack Developer And Currently Pursuing Bachelors Of Technology Degree From AKTU University. I Am Passionate To Solve DSA Problem. C++ Developer and 200+Question Solve On GeeksForGeeks. Frontend Developer Internship In Innovatia. </Typography>
                             <Box sx={{ width: '100%', typography: 'body1' }}>
                                 <Box sx={{ marginLeft: "30px", }}>

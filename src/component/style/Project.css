@@ -1,6 +1,12 @@
 
-
-
+.card-width-h{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+    box-sizing: border-box !important;
+    margin: 0px 1rem !important;
+}
+.text-col{
+    color: #E30B5D;
+}
 .overlay{
     position: absolute !important;
     top: 0;
@@ -10,7 +16,11 @@
     left: 0;
     opacity: 0;
     background: rgb(255,255,255);
-background: radial-gradient(circle, transparent 20%, rgba(255,128,176,1) 100%);   cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+    transition-duration: opacity 0.5s ease-in !important;
+    
+background: radial-gradient(circle, transparent 20%, rgba(255,128,176,1) 100%) !important;   
+cursor: pointer;
 }
 .content{
     position: absolute !important;
@@ -24,11 +34,39 @@ background: radial-gradient(circle, transparent 20%, rgba(255,128,176,1) 100%); 
 .contain{
     position: relative;
 }
-.contain:hover .overlay{
+.contain:hover .overlay {
     display: block !important;
-
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+    transition: opacity 0.8s ease-in !important;
+    transition-delay: 0.1s !important;
     opacity: 1 !important;
 }
+.contain:hover .card-image{
+    transform: scale(1.15) !important;
+    transition-duration: 0.5s  !important;
+}
 .launch{
+   
+    color: #FFFFFF !important;
+    font-size:50px !important;
+}
+.launch:hover{
+    cursor: pointer;
+    transform: scale(1.1) !important;
     color: #E30B5D !important;
+    transition-duration: 0.4s !important;
+
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1) !important;
+    transition:ease-in-out !important;
+}
+.hover-text{
+    font-size: 20px !important;
+    margin-bottom: 0.5rem !important;
+    font-family: Arial, Helvetica, sans-serif!important;
+    color: #fff !important;
+    word-spacing: 2px !important;
+    text-decoration: none !important;
+}
+.header-grid{
+    margin-bottom: 0px !important;
 }

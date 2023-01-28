@@ -4,6 +4,9 @@
     margin-top: 100vh;
     margin-bottom: 4rem;
 }
+.text-col{
+    color: #E30B5D;
+}
 .About-header{
     margin-left: 30px !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;

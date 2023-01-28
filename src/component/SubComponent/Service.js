@@ -11,10 +11,10 @@ export default function Service() {
     <Box className="container mb-5 mt-3 service-box" id="services">
         <Grid container spacing={5}>
             <Grid item xs={12}>
-            <Typography className='About-header mb-2' variant='h3'>My Services</Typography>
+            <Typography className='About-header mb-2' variant='h3' data-aos="fade-down">My <span className='text-col'>Services.</span></Typography>
             </Grid>
             <Grid item xs={12} sm={6} md={6} lg={4}>
-                <Card>
+                <Card className="card-service" data-aos="fade-right">
                   <CardContent>
                     <Box className='card-text'>
                       <CodeOffIcon className='codeof'/>
@@ -28,7 +28,7 @@ export default function Service() {
                 </Card>
             </Grid>
             <Grid item xs={12} sm={6} md={6} lg={4}>
-            <Card>
+            <Card className="card-service" data-aos="fade-up">
                   <CardContent className='card-box-backend'>
                     <Box className='card-text'>
                       <CodeIcon className='codeof'/>
@@ -42,7 +42,7 @@ export default function Service() {
                 </Card>
             </Grid>
             <Grid item xs={12} sm={6} md={6} lg={4}>
-            <Card>
+            <Card className="card-service" data-aos="fade-left">
                   <CardContent>
                     <Box className='card-text'>
                       <LayersIcon className='codeof'/>

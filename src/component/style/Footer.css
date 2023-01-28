@@ -1,5 +1,5 @@
 .card-div{
-    background-color:  #555555 !important;
+    background-color:  #1B1B1B !important;
     border: none;
     border-radius: 0px !important;
     color: #ffffff !important;
@@ -47,6 +47,10 @@
     justify-content: flex-end;
     text-align: end;
 }
+.ml-3{margin-left: 30px !important;}
+.mr-3{
+    margin-right: 30px !important;
+}
 @media  screen and (max-width:545px) {
     .contact-div{
         text-align: center !important;
@@ -65,6 +69,10 @@
         justify-content: center !important;
         text-align: center !important;
     }
+    .ml-3{margin-left: 0px !important;}
+.mr-3{
+    margin-right: 0px !important;
+}
 }
 .contact-text{
     font-size: 15px !important;
@@ -87,8 +95,4 @@
         text-align: center !important;
     
     }
-}
-.ml-3{margin-left: 30px !important;}
-.mr-3{
-    margin-right: 30px !important;
 }

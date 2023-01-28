@@ -30,9 +30,9 @@ export default function Project() {
                                     <Box className="content">
                                        
                                         <Typography className="hover-text">Gargs Dentario</Typography>
-                                        <Link to='/' className="hover-text" >
+                                        <a href='https://gargsdentario.com/' target='_blank' rel='noopener noreferrer'  className="hover-text" >
                                        <LaunchOutlinedIcon className='launch' />
-                                       </Link>
+                                       </a>
                                     </Box>
                                 </Box>
                             </Box>
@@ -75,9 +75,9 @@ export default function Project() {
                                     <Box className="content">
 
                                     <Typography className="hover-text">UHV</Typography>
-                                        <Link to='/' className="hover-text" >
+                                        <a href='http://www.uhv.org.in/' rel='noopener noreferrer' target='_blank' className="hover-text" >
                                        <LaunchOutlinedIcon className='launch' />
-                                       </Link>
+                                       </a>
 
                                     </Box>
                                 </Box>

@@ -42,25 +42,25 @@ export default function Nav() {
         <Tooltip title="Git Hub">
          <Box className="social-icon">
          
-            <Link className="nav-social-icon" to='/' >
+            <a className="nav-social-icon" href='https://github.com/aniketvs' target="_blank" rel='noopener noreferrer' >
            
-            <GitHubIcon />
+            <GitHubIcon  className='nav-icon'/>
             
-            </Link>
+            </a>
 
          </Box>
          </Tooltip>
          <Tooltip title="Linkedin">
          <Box className="social-icon">
          
-         <Link className="nav-social-icon" to='/' ><LinkedInIcon/></Link>
+         <a className="nav-social-icon" href='https://www.linkedin.com/in/sharma-aniket-vinod/' target="_blank"  rel='noopener noreferrer'><LinkedInIcon className='nav-icon'/></a>
          
          </Box>
          </Tooltip>
          <Tooltip title="Instagram">
          <Box className="social-icon">
         
-         <Link className="nav-social-icon" to='/' > <InstagramIcon /> </Link>
+         <a className="nav-social-icon" target='_blank' href='https://www.instagram.com/aniketsharma4482/' rel='noopener noreferrer' > <InstagramIcon className='nav-icon'/> </a>
          
          </Box>
          </Tooltip>

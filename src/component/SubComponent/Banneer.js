@@ -1,7 +1,8 @@
 import React from 'react'
 import { Box, Grid, Typography } from '@mui/material'
 import '../style/Banner.css';
-import ani from '../Images/my-image (2).png'
+import ani from '../Images/bin1.png'
+
 import Typewriter from 'typewriter-effect';
 export default function Banneer() {
     return (
@@ -24,7 +25,7 @@ export default function Banneer() {
                         </Box>
                     </Grid>
                     <Grid item xs={12} sm={6} lg={6}>
-                        <Box className="image-box" data-aos='fade-left'>
+                        <Box className="image-box" data-aos='zoom-in'>
                             <img src={ani} alt={ani} className="image-ani" />
                         </Box>
                     </Grid>

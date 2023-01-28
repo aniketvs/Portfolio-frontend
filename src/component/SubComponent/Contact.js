@@ -31,7 +31,9 @@ export default function Contact() {
                 
                 return false;
             }
-            let result = await fetch('http://localhost:3005/contact', {
+          
+          
+            let result = await fetch('https://portfolio-backend-b02k.onrender.com/contact', {
                 method: 'POST',
                 body: JSON.stringify({ name, email, message }),
                 headers: {
@@ -48,7 +50,7 @@ export default function Contact() {
                 alert("something went wrong");
             }
         } catch (error) {
-            console.warn(error);
+            console.error(error);
         }
     }
 const change=(e)=>{
@@ -64,17 +66,17 @@ const change=(e)=>{
                             <Typography className='contact-header' variant='h3'>Contact <span className='text-col'>Me. </span> </Typography>
                             <Box className="d-flex">
                                 <EmailOutlinedIcon className='matrial-icon' />
-                                <Typography className='conatcat-text'>sharmavinod8454@gmail.com</Typography>
+                                <a className="nav-social-icon" target='_blank'  href='https://mail.google.com/' rel='noopener noreferrer' >    <Typography className='conatcat-text'>sharmavinod8454@gmail.com</Typography></a>
                             </Box>
                             <Box className="d-flex mb-2">
                                 <WhatsAppIcon className='matrial-icon' />
-                                <Typography className='conatcat-text'>+91 8454833153</Typography>
+                                <a className="nav-social-icon"  target='_blank' href='https://web.whatsapp.com/' rel='noopener noreferrer' >   <Typography className='conatcat-text'>+91 8454833153</Typography></a>
                             </Box>
                             <Box>
-                                <InstagramIcon className='flex-icon-fst' />
-                                <FacebookIcon className='flex-icon' />
-                                <LinkedInIcon className='flex-icon' />
-                                <TwitterIcon className='flex-icon' />
+                            <a className="nav-social-icon" target='_blank' href='https://www.instagram.com/aniketsharma4482/' rel='noopener noreferrer' >  <InstagramIcon className='flex-icon-fst' /> </a>
+                            <a className="nav-social-icon" target='_blank' href='https://www.facebook.com/profile.php?id=100023258160628' rel='noopener noreferrer' >   <FacebookIcon className='flex-icon' /></a>
+                            <a className="nav-social-icon" href='https://www.linkedin.com/in/sharma-aniket-vinod/' target="_blank"  rel='noopener noreferrer'>   <LinkedInIcon className='flex-icon' /></a>
+                            <a className="nav-social-icon" href='https://www.linkedin.com/in/sharma-aniket-vinod/' target="_blank"  rel='noopener noreferrer'>     <TwitterIcon className='flex-icon' /></a>
 
                             </Box>
                         </Box>

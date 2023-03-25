@@ -7,7 +7,7 @@ import leetcode from '../Images/leetcode.svg'
 export default function CodingProfile() {
     return (
         <>
-            <Box className="container mb-4 mt-3 service-box">
+            <Box className="container mb-4 mt-3 service-box" id="coding-profile">
                 <Grid container spacing={5}>
                     <Grid item xs={12}>
                         <Typography className='About-header' variant='h3' data-aos="fade-down">Coding <span className='text-col'>Profiles.</span></Typography>

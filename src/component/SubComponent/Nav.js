@@ -27,6 +27,9 @@ export default function Nav() {
           <Link class="nav-link nav-link-color" to='#services' smooth>Services</Link>
         </li>
         <li class="nav-item">
+          <Link class="nav-link nav-link-color" to='#coding-profile' smooth>Profile</Link>
+        </li>
+        <li class="nav-item">
           <Link class="nav-link nav-link-color" to='#project' smooth>Project</Link>
         </li>
         <li class="nav-item">

@@ -14,6 +14,7 @@ export default function Banneer() {
                             <Typography variant='h3' className='typo-1st'><span className='typo1st-span'>My</span> name is</Typography>
                             <Typography variant='h3' className='typo-1st'>
                                 <Typewriter
+                                   className="typer"
                                     options={{
                                         strings: ["Sharma Aniket Vinod"],
                                         autoStart: true,

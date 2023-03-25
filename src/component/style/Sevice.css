@@ -34,3 +34,28 @@
 .card-service{
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px !important;
 }
+.image-boxe{
+    display: flex;
+    flex-direction: row;
+}
+.gfg{
+    color: green;
+    font-size: 5rem;
+    line-height: 1.0375rem;
+    margin-right: 3rem;
+    margin-left: 5rem;
+}
+.leetcode{
+    color: orange;
+    font-size: 5rem;
+    line-height: 1.0375rem;
+
+}
+.profile-grid{
+    justify-content: flex-start !important;
+  
+}
+.defaultCSS{
+all: unset;
+cursor: pointer;
+}

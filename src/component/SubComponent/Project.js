@@ -1,5 +1,4 @@
 import { Card, CardMedia, Grid, Typography } from '@mui/material'
-import { Link } from 'react-router-dom';
 import { Box } from '@mui/system'
 import React from 'react'
 import gargs from '../Images/gargsd (2).jpg'

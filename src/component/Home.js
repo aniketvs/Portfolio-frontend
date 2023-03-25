@@ -9,6 +9,7 @@ import Service from './SubComponent/Service'
 import Resume from './SubComponent/Resume'
 import Project from './SubComponent/Project';
 import Contact from './SubComponent/Contact';
+import CodingProfile from './SubComponent/CodingProfile';
 export default function Home() {
   useEffect(()=>{
     AOS.init();
@@ -19,6 +20,7 @@ export default function Home() {
         <Banneer/>
         <About/>
         <Service/>
+         <CodingProfile/>
         <Project/>
         <Contact/>
         <Resume/>

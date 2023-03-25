@@ -53,7 +53,10 @@ export default function Project() {
 
                                     <Typography className="hover-text">Event Organization</Typography>
                                         <Link to='/' className="hover-text" >
+                                        <a href='https://eventrus.netlify.app/' rel='noopener noreferrer' target='_blank' className="hover-text" >
+                                      
                                        <LaunchOutlinedIcon className='launch' />
+                                       </a>
                                        </Link>
 
                                     </Box>

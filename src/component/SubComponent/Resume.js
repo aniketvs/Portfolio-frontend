@@ -7,8 +7,7 @@ export default function Resume() {
     const [click,setClick]=useState(0);
     const onButtonClick = () => {
         // using Java Script method to get PDF file
-         let fileurl=File.split(' ')[0];
-         fileurl=fileurl.split('Ani_')[1];
+         let fileurl=File;
                 
                 let alink = document.createElement('a');
                 alink.href = File;

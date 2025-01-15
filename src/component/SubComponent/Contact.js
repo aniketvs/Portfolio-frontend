@@ -60,6 +60,7 @@ const change=(e)=>{
     return (
         <>
             <Box className="container  mt-5" id="contact">
+             <form>
                 <Grid container className="Main-grid">
                     <Grid item xs={12} sm={12} md={5} lg={5} >
                         <Box className="mb-5" data-aos="fade-right">
@@ -151,6 +152,7 @@ const change=(e)=>{
                         </Box>
                     </Grid>
                 </Grid>
+                                    </form>
             </Box>
         </>
     )

@@ -52,6 +52,9 @@ export default function About() {
                                     alt={aboutme}
 
                                 />
+
+                                        <div>
+                                        <iframe src='https://assets.spyne.ai/360?sku_id=921bffa99b024111b7e3651c8d1febd1' width="200px" height="200px"/></div>
                           
         
             <Box className="container about-box" id="about">

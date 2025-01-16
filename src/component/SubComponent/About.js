@@ -52,7 +52,7 @@ export default function About() {
                                     alt={aboutme}
 
                                 />
-                            </Card>
+                          
         
             <Box className="container about-box" id="about">
                 <Grid container spacing={4}>

@@ -53,11 +53,11 @@ export default function About() {
 
                                 />
 
-            <div>
+      <div style={{ position: "absolute" }}>
   <iframe 
     src="https://assets.spyne.ai/360?sku_id=921bffa99b024111b7e3651c8d1febd1" 
-    width="200px" 
-    height="200px" 
+    width="500px" 
+    height="500px" 
     title="360-degree view of product"
   ></iframe>
 </div>

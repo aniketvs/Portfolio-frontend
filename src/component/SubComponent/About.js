@@ -45,6 +45,15 @@ export default function About() {
     const [skill] = useState(['Data Structure','Algorithm','C++','HTML','CSS','JS','Node Js','React Js','Express Js','MongoDB','Bootstrap','Matarial UI','Tailwind CSS']);
     return (
         <>
+           <CardMedia
+                                    component="img"
+                                    height="450"
+                                    image={aboutme}
+                                    alt={aboutme}
+
+                                />
+                            </Card>
+        
             <Box className="container about-box" id="about">
                 <Grid container spacing={4}>
                     <Grid item xs={12} sm={12} md={5}>

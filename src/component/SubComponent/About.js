@@ -45,22 +45,7 @@ export default function About() {
     const [skill] = useState(['Data Structure','Algorithm','C++','HTML','CSS','JS','Node Js','React Js','Express Js','MongoDB','Bootstrap','Matarial UI','Tailwind CSS']);
     return (
         <>
-           <CardMedia
-                                    component="img"
-                                    height="450"
-                                    image={aboutme}
-                                    alt={aboutme}
 
-                                />
-
-      <div style={{ position: "absolute" }}>
-  <iframe 
-    src="https://assets.spyne.ai/360?sku_id=921bffa99b024111b7e3651c8d1febd1" 
-    width="500px" 
-    height="500px" 
-    title="360-degree view of product"
-  ></iframe>
-</div>
 
         
             <Box className="container about-box" id="about">

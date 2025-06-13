@@ -2,7 +2,7 @@ import { Box, Typography, Button} from '@mui/material'
 import React, { useState } from 'react'
 import '../style/Resume.css'
 import DownloadForOfflineIcon from '@mui/icons-material/DownloadForOffline';
-import File from '../File/Aniket_Resume_2025.pdf'
+import File from '../File/Aniket_Resume_2025_1.pdf'
 export default function Resume() {
     const [click,setClick]=useState(0);
     const onButtonClick = () => {
